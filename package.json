@@ -1,0 +1,23 @@
+{
+  "name": "chrome-tab-organizer",
+  "version": "1.0.0",
+  "description": "Chrome extension for organizing browser tabs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephKattukaran/smart-tab-organizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephKattukaran/smart-tab-organizer/issues"
+  },
+  "homepage": "https://github.com/JosephKattukaran/smart-tab-organizer#readme",
+  "devDependencies": {
+    "eslint": "^10.6.0"
+  }
+}
