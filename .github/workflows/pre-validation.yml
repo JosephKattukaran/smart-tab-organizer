@@ -20,7 +20,7 @@ jobs:
 
       - name: Validate manifest.json
         run: |
-          python3 -c "import json; json.load(open('manifest.json'))"
+          python3 -c "import json; json.load(open('.github/code/manifest.json'))"
 
       - name: Install ESLint
         run: |
