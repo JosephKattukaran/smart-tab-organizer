@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 600px;   /* 👈 Increase this */
+      max-height: 600px;
+      overflow-y: auto;
+      font-family: Arial, sans-serif;
+    }
+    .group {
+  border: 2px dashed #ccc;
+  padding: 8px;
+  margin-bottom: 10px;
+    }
+
+    .group.drag-over {
+    background-color: #e6f7ff;
+    }
+
+    .tab {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    cursor: grab;
+    }
+  </style>
+</head>
+
+<body>
+
+<h3>Open Tabs</h3>
+<div id="tabsList"></div>
+
+<script src="popup.js"></script>
+
+</body>
+</html>
