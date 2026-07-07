@@ -8,5 +8,8 @@
     }, 
     "action": { 
         "default_popup": "popup.html" 
-    } 
+    },
+    "scripts": {
+        "lint": "eslint ."
+      }
 }

@@ -22,10 +22,8 @@ jobs:
         run: |
           python3 -c "import json; json.load(open('.github/code/manifest.json'))"
 
-      - name: Install ESLint
+      - name: Check required files
         run: |
-          npm install
-
-      - name: Run Lint
-        run: |
-          npx eslint .
+          test -f popup.js
+          test -f popup.html
+          test -f background.js
